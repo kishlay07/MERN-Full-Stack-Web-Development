@@ -6,6 +6,59 @@
     <title>Document</title>
 </head>
 <body>
-    
+
+      <!--Image tag-->  
+      
+      <!--Image tag is used to add images in webpage. It is self closing tag Its means its not requires closing tag-->
+
+      <!--The syntax for the img tag is as follows:
+
+                 1. Source : src (required) specifies the URL of the image to be displayed.
+
+                2. Alternative Text : alt (required) provides an alternative text description of the image for users who are visually impaired or who have images disabled in their browser.
+
+                3. Width : width (optional) specifies the width of the image in pixels.
+
+                4. Height : height (optional) specifies the height of the image in pixels.-->
+
+    <img src="https://www.google.com/imgres?q=MSD&imgurl=https%3A%2F%2Fwww.hindustantimes.com" alt="No image found">
+    <img src="https://www.hindustantimes.com/ht-img/img/2023/04/14/550x309/ANI-20230408340-0_1681474230799_1681474230799_1681474259537_1681474259537.jpg" alt="I didn't find image">
+
+    <img src="https://images.moneycontrol.com/static-mcnews/2024/05/20240519042619_Dhoni-vs-RCB-1.jpg?impolicy=website&width=1600&height=900" alt="No image found" width="700" height="400">
+
+
+    <!--5. Loading : The loading attribute in the <img> tag is used to control how the browser loads and displays images on a web page. It is a new attribute introduced in HTML5 and is used to optimize the loading and rendering of images to improve web page performance.The loading attribute can have three possible values:
+
+                           auto : This is the default value, and it tells the browser to load the image as soon as possible.
+                           lazy : This tells the browser to delay loading the image until it is about to come into the viewport or the visible area of the web page. This can help reduce the initial load time of the page and improve performance, especially for images that are located below the fold or not immediately visible to the user.
+                           eager : This tells the browser to load the image immediately, even if it is not currently visible in the viewport. This can be useful for images that are critical to the content or layout of the page and need to be loaded and displayed as soon as possible.-->
+
+          <!--Video Tag--> 
+    <!--a)The control attribute adds a set of playback controls eg play,pause,seek,volume button control
+        b)The poster attribute add a poster of the video-->
+
+    <video controls = "controls" width="700px" height="400px" poster="Images/assas.png">
+        <source src="Videos/Untitled video - Made with Clipchamp (1).mp4" >
+    </video>
+
+        <!--The Autoplay tag use to autoplay the video added to the webpage-->
+     <video controls = "controls" width="700px" height="400px" autoplay>
+        <source src="Videos/Untitled video - Made with Clipchamp (1).mp4" >
+    </video>
+
+      
+       <!--audio Tag-->
+    <audio controls = "controls" src="Videos/Untitled video - Made with Clipchamp (1).mp4"></audio>
+
+
+       <!--Object tag-->
+       <!--Object tag is used to embed an external resource into a web page, such as an image, video, audio, PDF, or Flash animation-->   
+    <object data="Images/SQL_Certificate.pdf" type="image" width="500px" height="300px"></object>
+
+
+      <!--Embedded Tag :-- The <iframe> tag is an example of an embedded tag in HTML. It is used to embed a webpage or a portion of a webpage into another HTML document. The src attribute specifies the URL of the webpage to be embedded. Other attributes such as width, height, scrolling, and frameborder can be used to customize the appearance and behavior of the embedded content . The <iframe> tag is commonly used for displaying content from other websites, embedding videos or maps, and creating a layout for a webpage that includes multiple sections. -->
+
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/dXl2NdlmeIE?si=ma0g7INpcopH37sl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen ></iframe>
+
 </body>
 </html>
