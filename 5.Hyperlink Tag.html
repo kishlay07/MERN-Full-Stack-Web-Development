@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<!--Hyperlink Tag :- The hyperlink tag, commonly known as the <a> tag in HTML, is used to create hyperlinks or links to other web pages, documents, or resources on the internet. The <a> tag is one of the most commonly used tags in HTML for creating clickable links.-->
+
+    <h1>Absolute Hyperlink</h1>
+    <a href="https://github.com/kishlay07/MERN-Full-Stack-Web-Development">Github Link</a>   <!--Hyperlink Tag -->
+
+<!--Types of hyperlink :-
+        1.Absolute Hyperlinks : Its use URL 
+        2.Relative Hyperlinks : Relative hyperlinks are commonly used when linking to documents or resources within the same website or domain.-->   
+
+    <!--Absolute hyperlink-->
+<a href="https://in.linkedin.com/">Linkedin</a>
+
+    <!--Relative hyperlink :- kissi v chiz ki iD daal kar hum usse link karte hai eg..-->
+<div>
+    <h1>Relative hyperlink</h1>
+    <a href="#1">html</a>
+    <a href="#2">css</a>
+    <a href="#JS">javascript</a>
+    <a href="#React">react</a>
+    <a href="#DB">mongodb</a>
+</div>
+
+<div>
+    <div>
+        <h1 id="1">HTML</h1>
+        <p>HTML stands for HyperText Markup Language. It's the standard language used to create and design web pages. HTML provides the basic structure for web documents by using elements and tags to define different parts of a webpage.</p>
+    </div>
+    <div >
+        <h1 id="2">CSS</h1>
+        <p>CSS stands for Cascading Style Sheets. It's a stylesheet language used to control the presentation and layout of HTML (Hypertext Markup Language) documents. CSS allows web developers to apply styles such as colors, fonts, spacing, and positioning to elements on a webpage, making it possible to create visually appealing and responsive designs.
+
+            Here's a quick overview of CSS:
+            
+            Selectors: These are used to target specific HTML elements you want to style. For example, you might use a class selector to style all elements with a certain class or an ID selector to style a single element.
+            
+            Properties and Values: CSS rules consist of properties and values. For instance, color: blue; is a property-value pair where color is the property and blue is the value.
+            
+            Box Model: CSS treats every HTML element as a box, which includes content, padding, border, and margin. Understanding the box model is crucial for layout design.
+            
+            Responsive Design: CSS includes features like media queries that help create designs that adapt to different screen sizes and devices.
+            
+            Flexbox and Grid: These are powerful layout modules in CSS that make it easier to create complex layouts and align items in a flexible way.
+            
+            CSS is essential for modern web design and development, as it separates content (HTML) from presentation (CSS), making both easier to manage and maintain.</p>
+    </div>
+    <div >
+        <h1 id="JS">JAVA Script</h1>
+        <p>JavaScript (often abbreviated as JS) is a high-level, interpreted programming language that is widely used to add interactivity and dynamic functionality to web pages. It is a core technology of the World Wide Web, alongside HTML and CSS. Here’s a breakdown of what JavaScript is and what it can do:
+
+            1. **Client-Side Scripting**: JavaScript is primarily used for client-side scripting, meaning it runs in the user’s web browser. It allows you to create interactive features on a webpage, such as forms that validate input, dynamic content updates, animations, and more.
+            
+            2. **Event Handling**: JavaScript can respond to user actions like clicks, key presses, and mouse movements, allowing you to create interactive web experiences.
+            
+            3. **DOM Manipulation**: The Document Object Model (DOM) represents the structure of a web page. JavaScript can be used to manipulate the DOM, allowing you to dynamically change the content, structure, and style of a webpage.
+            
+            4. **Asynchronous Operations**: JavaScript supports asynchronous programming with features like Promises and async/await. This is useful for performing tasks like fetching data from a server without freezing the user interface.
+            
+            5. **Libraries and Frameworks**: JavaScript has a rich ecosystem of libraries and frameworks that simplify development and enhance functionality. Popular ones include React, Angular, and Vue.js for building user interfaces, and Node.js for server-side development.
+            
+            6. **Server-Side Programming**: JavaScript is not limited to the client side. With environments like Node.js, JavaScript can be used for server-side programming, allowing you to build full-stack applications using a single language.
+            
+            7. **Syntax and Features**: JavaScript is known for its flexibility and dynamic nature. It supports various programming paradigms, including imperative, object-oriented, and functional programming.
+            
+            Overall, JavaScript is a versatile language that plays a crucial role in modern web development, enabling developers to create rich, interactive user experiences.</p>
+    </div>
+    <div >
+        <h1 id="React">REACT</h1>
+        <p>React is a popular JavaScript library used for building user interfaces, particularly for single-page applications where you need a dynamic and interactive experience. Developed by Facebook, it allows developers to create reusable UI components that can efficiently update and render in response to data changes.
+
+            Key features of React include:
+            
+            1. **Component-Based Architecture**: React breaks down the UI into reusable components. Each component manages its own state and can be composed to build more complex UIs.
+            
+            2. **Virtual DOM**: React uses a virtual DOM to optimize updates. When the state of a component changes, React first updates a virtual representation of the DOM, calculates the difference between the virtual and real DOM, and then updates only the parts of the real DOM that changed. This improves performance.
+            
+            3. **Declarative Syntax**: React uses a declarative approach to describe how the UI should look. You describe what the UI should look like for different states, and React takes care of updating the UI to match the current state.
+            
+            4. **JSX (JavaScript XML)**: React uses JSX, a syntax extension that allows you to write HTML-like code within JavaScript. JSX makes it easier to visualize the structure of your components and their rendering logic.
+            
+            5. **State Management**: React manages component state and provides hooks like `useState` and `useEffect` to handle side effects and component lifecycle events.
+            
+            React is widely used for building web applications, but it can also be used for mobile app development through React Native, which allows you to build native mobile apps using the same React principles.</p>
+    </div>
+    <div >
+        <h1 id="DB">Mongodb</h1>
+        <p>MongoDB is a widely used NoSQL database that stores data in a flexible, JSON-like format known as BSON (Binary JSON). Unlike traditional relational databases, which use structured tables and rows, MongoDB organizes data in collections of documents. Here are some key features of MongoDB:
+
+            1. **Document-Oriented**: MongoDB stores data in documents, which are similar to JSON objects. Each document is a set of key-value pairs and can contain nested structures. This schema-less approach allows for greater flexibility in data modeling.
+            
+            2. **Scalability**: MongoDB is designed to scale out horizontally, meaning you can add more servers to handle increased loads. It supports sharding, which distributes data across multiple servers to ensure efficient performance and storage.
+            
+            3. **Flexible Schema**: With MongoDB, you don’t need to define a rigid schema upfront. Each document can have a different structure, allowing for easy updates and changes to the data model without affecting existing data.
+            
+            4. **Indexing**: MongoDB supports various types of indexing to optimize query performance. You can create single-field, compound, and geospatial indexes, among others.
+            
+            5. **Rich Query Language**: MongoDB offers a powerful query language that supports a wide range of queries, including filtering, sorting, and aggregation operations. This makes it suitable for complex data retrieval and analysis.
+            
+            6. **Aggregation Framework**: MongoDB includes an aggregation framework that allows you to perform complex data processing and transformation operations. This is useful for tasks like data aggregation, filtering, and grouping.
+            
+            7. **Replication**: MongoDB supports replication through replica sets. A replica set is a group of MongoDB servers that maintain the same data set, providing redundancy and high availability.
+            
+            8. **High Availability**: MongoDB's replication and sharding features contribute to high availability, ensuring that data remains accessible even if some servers fail.
+            
+            9. **Change Streams**: MongoDB supports change streams, which allow applications to listen to real-time changes in the database. This is useful for triggering events or synchronizing data across systems.
+            
+            MongoDB is often used in scenarios where the data structure can evolve over time, or where the application requires high performance and scalability. It’s commonly used in web applications, content management systems, and big data processing.</p>
+    </div>
+</div>
+</body>
+</html>
