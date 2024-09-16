@@ -1,0 +1,32 @@
+/*Tag Selector*/
+ul{
+    list-style: circle;
+}
+
+/*Class Selector*/
+.item1{
+    color: red;
+}
+
+/*Id Selector*/
+#heading{
+    font-size: 100px;
+}
+
+/*Attribute Selector*/
+p[data-type = "paragraph"]{
+    font-style: italic;
+    background-color: aqua;
+    font-size: medium;
+}
+
+/*Descendant Selector*/
+.Container ul{
+    margin: 100px;
+}
+
+/*Universal Selector*/
+*{
+    box-sizing: border-box;
+    background-color: aqua;
+}
