@@ -1,0 +1,6 @@
+.exm{
+    background-color: crimson;
+    color: orange;
+    opacity: 0.7;     /*opacity: This property sets the opacity of an element, which determines the degree of transparency of the element. It is a value between 0 and 1, 
+                                 with 0 being completely transparent and 1 being completely opaque.*/
+}
