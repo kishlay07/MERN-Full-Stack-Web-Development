@@ -19,6 +19,11 @@ img{
     width: 150px;
 }
 
+img:hover{
+    box-shadow: 0 0 7px yellow;
+    transform: scale(1.5)
+    
+}
 .WholePage{
     display:flex ;
     align-items: center;

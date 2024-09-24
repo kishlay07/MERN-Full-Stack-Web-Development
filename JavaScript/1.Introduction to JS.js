@@ -1,0 +1,1 @@
+console.log("Hi I am Kishlay");  //It is use to print any string on console
