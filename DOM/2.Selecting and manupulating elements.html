@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="abc">first Element</div>
+    <div class="abcde">Second Element</div>
+    <div class="abcde" >Third Element</div>
+    <div class="con">
+        <p>This is a paragraph element inside a div</p>
+        <p>This is another paragraph element inside a div</p>
+      </div>
+    <a id="mylink"   href="https://google.com">Link</a>
+</body>
+
+        <script>
+                //1.getElementById(): It returns the element object if found, or null if no element with that id exists.
+            const A = document.getElementById("abc");
+            A.innerHTML = "New element.........................."  //To change the content of an element we use innerHTML
+
+                //2.getElementsByClassName(): It returns an array-like object of all the elements found.
+            const B = document.getElementsByClassName("abcde");
+            B[0].innerHTML = "New.............!!!!!!!!!!!"
+
+               //3.querySelector(): This method is used to select the first element that matches a specified CSS selector. It returns the element object if found, or null if no element matches the selector.
+            const C = document.querySelector(".abcde");
+            C.innerHTML = "New items...added"
+
+               //4.querySelectorAll(): This method is used to select all elements that match a specified CSS selector. It returns an array-like object of all the elements found.
+
+            const D = document.querySelectorAll(".con p");
+            for (let i = 0; i < D.length; i++) {
+                D[i].style.color = "red";
+                    }
+
+            //To change the value of an attribute, we can use the setAttribute() method:
+            const E = document.getElementById("mylink");
+            E.setAttribute("href","https://www.youtube.com/watch?v=jaj1Antt2_c");   
+            
+        </script>
+</html>

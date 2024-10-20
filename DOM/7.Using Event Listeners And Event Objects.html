@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Event Listener Example</title>
+</head>
+
+<body>
+    <button id="myButton">Click Me</button>
+    <p id="myOutput"></p>
+
+    <br><br><br><br><br><br>
+    <form>
+        <label for="username">Username:</label>
+        <input type="text" id="username">
+        <br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password">
+        <br><br>
+        <button type="submit" id="submitBtn">Submit</button>
+    </form>
+</body>
+<script>
+    const myButton = document.getElementById("myButton");
+    const myOutput = document.getElementById("myOutput");
+
+    myButton.addEventListener("click", function () {
+        myOutput.textContent = "Button clicked!";
+    });
+
+
+    const submitBtn = document.getElementById("submitBtn");
+    const form = document.querySelector("form");
+
+    submitBtn.addEventListener("click", function (event) {
+        // Prevent the default form submission
+        event.preventDefault();
+
+        // Validate the form fields here
+        const username = document.getElementById("username").value;
+        const password = document.getElementById("password").value;
+
+        // Do something with the form data
+        console.log("Username: " + username);
+        console.log("Password: " + password);
+    });
+</script>
+
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <label for="name">Enter your name:</label>
+    <input id="inputElement" type="text">
+    <button id="submit"><b>Submit</b></button>
+    <br><br><br>
+    <button id="mybtn">Click Me..</button>
+</body>
+
+
+<script>
+    //1. Add event listeners to elements in the DOM. An event listener is a function that is called when a specific event occurs on an element. 
+    const btn = document.getElementById("mybtn");
+    btn.addEventListener("click", function () {
+        alert("Button is clicked");
+    });
+
+
+    //2. Use form input elements. 
+
+    const inputText = document.getElementById("inputElement");
+    const btn2 = document.getElementById("submit");
+
+    btn2.addEventListener("click", function () {
+        let name = inputText.value;
+        alert(`Hello ${name}`);
+    });
+</script>
+
+</html>

@@ -1,0 +1,21 @@
+<!--Document Object Model-->
+<!--It is a programming interface for web documents. contains Windows->Documents->HtML file-> Body and tag used in the fileṣ-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="heading">This is my heading</h1>
+    <button onclick="changeText()">Click here to see the change</button>
+</body>
+              <script>
+                function changeText(){
+                  const A = document.getElementById("heading");
+                  A.innerHTML = "New heading after Click of button"
+                  
+                }
+             </script>
+</html>
